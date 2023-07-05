@@ -1,13 +1,18 @@
 #!/usr/bin/env node
-import { program } from "commander";
+import { Command } from "commander";
 import playwright from "playwright";
+
+const program = new Command();
 
 program
   .name("fresher")
   .description("A CLI utility to launch a fresh browser instance.")
   .version("0.1.0")
-  .requiredOption('-b, --browser <"chromium" | "firefox" | "webkit">')
-  .option("-u, --url <string>");
+  .requiredOption(
+    '-b, --browser <"chromium" | "firefox" | "webkit">',
+    "browser to launch"
+  )
+  .option("-u, --url <string>", "initial url to open");
 
 program.parse();
 
