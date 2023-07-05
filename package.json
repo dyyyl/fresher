@@ -7,6 +7,10 @@
   "scripts": {},
   "author": "dyyyl",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyyyl/fresher"
+  },
   "dependencies": {
     "commander": "^11.0.0",
     "playwright": "^1.35.1"
