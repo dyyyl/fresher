@@ -1,7 +1,8 @@
 {
   "name": "@dyyyl/fresher",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A simple CLI utility for generating a fresh browser instance.",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "fresher": "index.js"
