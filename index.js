@@ -7,7 +7,7 @@ const program = new Command();
 program
   .name("fresher")
   .description("A CLI utility to launch a fresh browser instance.")
-  .version("0.1.2")
+  .version("0.1.3")
   .requiredOption(
     '-b, --browser <"chromium" | "firefox" | "webkit">',
     "browser to launch"
